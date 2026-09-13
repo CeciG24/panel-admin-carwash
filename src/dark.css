@@ -1,0 +1,30 @@
+/* Shared dark palette for the administrative workspace. */
+:root{color-scheme:dark;color:#e5edf8;background:#081321;--navy:#09182c;--blue:#1478ed;--muted:#a5b5ca;--line:#263b53}
+.topbar,.panel,.stat,.login-form{background:#102238}
+.sidebar{background:var(--navy);border-right:1px solid var(--line)}
+.topbar,.today,.stat>span:not(.stat-icon),.stat small,.agenda time,.pagination,.admin-footer,.search>span,.login-form>div>small{color:#a5b5ca}
+.topbar b,td:first-child,.empty-state h2,.description-list p{color:#e5edf8}
+.secondary,input,select,textarea{background:#0b1b2e;color:#e5edf8;border-color:#354c68}
+.secondary:hover,tbody tr:hover{background:#182f49}
+input::placeholder,textarea::placeholder{color:#94a8c2;opacity:1}
+input:focus,select:focus,textarea:focus{outline-color:#3a76b5;border-color:#72b8ff}
+label,td,.modal{color:#c3d2e5}
+th{background:#0d1c2e;color:#a6bad3}
+th,td,.agenda>div,.stock-list>div{border-color:var(--line)}
+.modal{background:#102238;border-color:#354c68}
+.icon-button,.menu-button,.balance,.video-preview,.dilution-row,.description-list>div{background:#172e49;color:#d1e2f6}
+.text-button,.section-title a,.eyebrow{color:#80bdff}
+.field>small,.description-list small,.history small,.agenda small,.stock-list small,td small{color:#a5b5ca}
+.stat-icon,.avatar{background:#173758;color:#83c0ff}
+.notice{background:#142e4b;border-color:#335574;color:#bddcff}
+.notice.error{background:#3b202d;border-color:#784153;color:#ffc1c9}
+.danger{color:#ffa5b3}
+.badge{background:#263b53;color:#c2d3e8}
+.badge.success{background:#133c35;color:#91e0ba}
+.badge.warning{background:#40341c;color:#f5d48e}
+.badge.muted{background:#2b3041;color:#bdc3d3}
+.login-story{border-right:1px solid var(--line)}
+.login-story p,.welcome-banner p{color:#bfd0e5}
+.login-form .eyebrow,.sidebar-label,.login-story>small{color:#9db5d2}
+.balance>span,.field>small,.dilutions p{color:#a5b5ca}
+input[type=checkbox]{accent-color:#338fff}
